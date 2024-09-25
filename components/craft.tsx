@@ -53,6 +53,10 @@ const Main = ({ children, className, id }: MainProps) => {
         "prose-blockquote:not-italic",
         // Pre and Code Blocks
         "prose-pre:border prose-pre:bg-muted/25 prose-pre:text-foreground",
+        // Height
+        "min-h-screen",
+        // Page background color
+        "bg-slate-50",
         className
       )}
       id={id}
@@ -86,7 +90,7 @@ type ContainerProps = {
 
 const Container = ({ children, className, id }: ContainerProps) => {
   return (
-    <div className={cn("mx-auto max-w-5xl", "p-6 sm:p-8", className)} id={id}>
+    <div className={cn("mx-auto max-w-[1440px]", "p-6 sm:py-8 md:px-[120px]", className)} id={id}>
       {children}
     </div>
   );
