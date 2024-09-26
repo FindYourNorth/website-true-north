@@ -11,6 +11,9 @@ import { Section, Container } from '@/components/craft';
 // Asset imports
 import Logo from '@/public/logo.svg';
 
+const bannerTextClassName =
+  'text-primary-foreground font-sans text-[90px] font-bold leading-tight tracking-tight';
+
 const Hero = () => {
   return (
     <Section>
@@ -18,10 +21,10 @@ const Hero = () => {
         <div className="flex justify-end">
           <Image src={Logo} height={300} alt="Company Logo" className="not-prose" />
         </div>
-        <div className="flex flex-col justify-between">
-          <p className="font-sans text-7xl font-semibold">FIND</p>
-          <p className="font-sans text-7xl font-semibold">YOUR</p>
-          <p className="font-sans text-7xl font-semibold">NORTH</p>
+        <div className="flex flex-col justify-center">
+          <p className={bannerTextClassName}>
+            FIND <br /> YOUR <br /> NORTH
+          </p>
         </div>
       </Container>
     </Section>

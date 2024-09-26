@@ -42,7 +42,7 @@ const Main = ({ children, className, id }: MainProps) => {
         // General Prose
         'prose:font-sans prose prose-neutral dark:prose-invert xl:prose-lg',
         // Prose Headings
-        'prose-headings:font-normal',
+        'prose-headings:m-0 prose-headings:font-serif',
         // Prose Strong
         'prose-strong:font-semibold',
         // Inline Links
@@ -53,10 +53,6 @@ const Main = ({ children, className, id }: MainProps) => {
         'prose-blockquote:not-italic',
         // Pre and Code Blocks
         'prose-pre:border prose-pre:bg-muted/25 prose-pre:text-foreground',
-        // Height
-        'min-h-screen',
-        // Page background color
-        'bg-slate-50',
         className,
       )}
       id={id}

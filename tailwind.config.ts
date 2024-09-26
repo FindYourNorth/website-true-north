@@ -8,6 +8,10 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      sans: ['"Public Sans"', 'sans-serif'],
+      serif: ['"Libre Baskerville"', 'serif'],
+    },
     extend: {
       colors: {
         background: 'hsl(var(--background))',
