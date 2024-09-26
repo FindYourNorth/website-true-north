@@ -106,11 +106,11 @@ const Article = ({ children, className, id, dangerouslySetInnerHTML }: ArticlePr
       dangerouslySetInnerHTML={dangerouslySetInnerHTML}
       className={cn(
         // General Prose
-        'prose:font-sans prose prose-neutral dark:prose-invert xl:prose-lg',
+        'prose:font-sans prose prose-neutral !max-w-none dark:prose-invert',
         // Prose Headings
-        'prose-headings:font-normal',
+        'prose-headings:font-serif',
         // Prose Paragraphs
-        'prose-p:mb-0',
+        'prose-p:mb-0 prose-p:font-sans prose-p:text-xl',
         // Prose Strong
         'prose-strong:font-semibold',
         // Inline Links
