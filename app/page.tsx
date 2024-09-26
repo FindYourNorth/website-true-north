@@ -1,5 +1,6 @@
 import { Main } from '@/components/craft';
 import AboutUs from '@/components/home-page/AboutUs';
+import CurrentProjects from '@/components/home-page/CurrentProjects';
 import Hero from '@/components/home-page/Hero';
 import OurServices from '@/components/home-page/OurServices';
 import OurValues from '@/components/home-page/OurValues';
@@ -16,6 +17,7 @@ export default function Page() {
       <AboutUs />
       <OurServices />
       <OurValues />
+      <CurrentProjects />
       <Footer />
     </Main>
   );

@@ -44,9 +44,9 @@ const OurValues = () => {
             Values
           </h1>
         </Article>
-        <div className="grid grid-cols-1 gap-9 bg-primary-foreground sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-9 bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
-            <Card className="max-w-[376px] px-1.5 py-4" key={index}>
+            <Card className="mx-auto max-w-[376px] px-1.5 py-4" key={index}>
               <CardHeader>
                 <Image
                   src={item.imageUrl}
