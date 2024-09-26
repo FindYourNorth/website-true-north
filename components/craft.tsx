@@ -71,7 +71,7 @@ type SectionProps = {
 
 const Section = ({ children, className, id }: SectionProps) => {
   return (
-    <section className={cn('py-8 md:py-12', className)} id={id}>
+    <section className={cn('pt-8 sm:pt-12 md:pt-20', className)} id={id}>
       {children}
     </section>
   );
@@ -86,7 +86,7 @@ type ContainerProps = {
 
 const Container = ({ children, className, id }: ContainerProps) => {
   return (
-    <div className={cn('mx-auto max-w-[1440px]', 'p-6 sm:py-8 md:px-[120px]', className)} id={id}>
+    <div className={cn('mx-auto max-w-[1440px]', 'px-6 md:px-[120px]', className)} id={id}>
       {children}
     </div>
   );
@@ -110,7 +110,7 @@ const Article = ({ children, className, id, dangerouslySetInnerHTML }: ArticlePr
         // Prose Headings
         'prose-headings:font-serif',
         // Prose Paragraphs
-        'prose-p:mb-0 prose-p:font-sans prose-p:text-xl',
+        'prose-p:mb-0 prose-p:text-justify prose-p:font-sans prose-p:text-base',
         // Prose Strong
         'prose-strong:font-semibold',
         // Inline Links

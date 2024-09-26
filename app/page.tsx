@@ -1,5 +1,7 @@
 import { Main } from '@/components/craft';
-import Hero from '@/components/home-page/hero';
+import About from '@/components/home-page/About';
+import Hero from '@/components/home-page/Hero';
+import Services from '@/components/home-page/Services';
 import MainNavBar from '@/components/shared/MainNavBar';
 import MobileNavBar from '@/components/shared/MobileNavBar';
 
@@ -9,6 +11,8 @@ export default function Page() {
       <MainNavBar />
       <MobileNavBar />
       <Hero />
+      <About />
+      <Services />
     </Main>
   );
 }
