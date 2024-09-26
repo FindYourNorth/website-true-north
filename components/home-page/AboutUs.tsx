@@ -2,9 +2,9 @@ import * as React from 'react';
 
 import { Section, Container, Article } from '@/components/craft';
 
-const About = () => {
+const AboutUs = () => {
   return (
-    <Section className="!pb-0">
+    <Section className="!pb-0" id="about-us">
       <Container>
         <Article>
           <h1 className="!mb-10 text-center !text-[40px]">
@@ -47,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutUs;

@@ -32,9 +32,9 @@ const cardItems: CardItem[] = [
   },
 ];
 
-const Services = () => {
+const OurServices = () => {
   return (
-    <Section className="!pb-0">
+    <Section id="our-services">
       <Container>
         <Article>
           <h1 className="!mb-10 text-center !text-[40px]">
@@ -70,4 +70,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default OurServices;
