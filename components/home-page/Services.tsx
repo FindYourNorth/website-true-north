@@ -34,7 +34,7 @@ const cardItems: CardItem[] = [
 
 const Services = () => {
   return (
-    <Section>
+    <Section className="!pb-0">
       <Container>
         <Article>
           <h1 className="!mb-10 text-center !text-[40px]">
@@ -54,9 +54,9 @@ const Services = () => {
           </p>
         </Article>
       </Container>
-      <Container className="grid grid-cols-2 gap-10 pt-14">
+      <Container className="grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2">
         {cardItems.map((item, index) => (
-          <Card className="w-[580px] p-4" key={index}>
+          <Card className="max-w-[580px] p-4" key={index}>
             <CardHeader>
               <CardTitle className="text-center !text-[28px]">{item.title}</CardTitle>
             </CardHeader>

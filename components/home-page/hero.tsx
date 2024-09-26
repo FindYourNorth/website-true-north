@@ -12,7 +12,7 @@ const bannerTextClassName =
 
 const Hero = () => {
   return (
-    <Section>
+    <Section className="!pb-0">
       <Container className="grid grid-cols-2 gap-10">
         <div className="flex justify-end">
           <Image src={Logo} height={300} alt="Company Logo" className="not-prose" />

@@ -4,7 +4,7 @@ import { Section, Container, Article } from '@/components/craft';
 
 const About = () => {
   return (
-    <Section>
+    <Section className="!pb-0">
       <Container>
         <Article>
           <h1 className="!mb-10 text-center !text-[40px]">

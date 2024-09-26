@@ -71,7 +71,7 @@ type SectionProps = {
 
 const Section = ({ children, className, id }: SectionProps) => {
   return (
-    <section className={cn('pt-8 sm:pt-12 md:pt-20', className)} id={id}>
+    <section className={cn('py-8 sm:py-12 md:py-20', className)} id={id}>
       {children}
     </section>
   );
