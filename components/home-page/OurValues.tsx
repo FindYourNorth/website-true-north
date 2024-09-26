@@ -34,8 +34,8 @@ const cardItems: CardItem[] = [
 
 const OurValues = () => {
   return (
-    <Section id="our-values" className="!py-0">
-      <Container className="rounded-lg bg-primary-foreground !py-8 sm:!py-12 md:!py-20">
+    <Section id="our-values" className="bg-primary-foreground !py-0">
+      <Container className="rounded-lg !py-8 sm:!py-12 md:!py-20">
         <Article>
           <h1 className="!mb-10 text-center !text-[40px] text-white">
             <span className="text-muted">
