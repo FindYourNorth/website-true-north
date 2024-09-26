@@ -13,7 +13,7 @@ const AboutUs = () => {
             </span>{' '}
             Us
           </h1>
-          <p className="!text-xl">
+          <p>
             At True North Consultants LLC, we are explorers by nature. We believe that finding the
             right solutions often means venturing into the unknown, embracing uncertainty, and
             trusting the process. Our journey is guided by a deep-seated commitment to uncovering
@@ -22,7 +22,7 @@ const AboutUs = () => {
             you’re helping people, we want to help you.
           </p>
           <br />
-          <p className="!text-xl">
+          <p>
             Our team is composed of seasoned professionals from national intelligence backgrounds,
             special operations, and combat veterans—individuals who have been trained to navigate
             the most complex landscapes with precision and discretion. We understand that technology
@@ -32,7 +32,7 @@ const AboutUs = () => {
             can pour yourself into the labors of love and helping others.
           </p>
           <br />
-          <p className="!text-xl">
+          <p>
             We recognize that the organizations we work with are often undervalued and overstressed,
             dealing with the challenges of turnover and understaffing. Our mission is to alleviate
             these burdens by providing tailored technical solutions that empower your team. We don’t
