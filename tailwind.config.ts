@@ -54,6 +54,10 @@ const config: Config = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        button: {
+          DEFAULT: 'hsl(var(--button))',
+          background: 'hsl(var(--button-background))',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
