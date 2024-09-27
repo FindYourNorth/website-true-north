@@ -14,20 +14,20 @@ type CardItem = {
 const cardItems: CardItem[] = [
   {
     photoUrl: '/img/matt.jpg',
-    name: 'Matt J',
-    position: 'Co-Founder & Voice of Reason',
+    name: 'Matthew Johnson',
+    position: 'Co-Founder & Director of Operations',
     bio: 'I’m the strategist with 20 years of military experience and a focus on operational planning and efficiency. With a business focus and experience in both the public and and private sectors, I specialize in helping organizations streamline processes and achieve their goals. As the co-founder of True North, I ensure we stay on course, delivering results that drive success. When I’m not working, I’m dedicated to empowering veterans and exploring innovative solutions to modern challenges.',
   },
   {
     photoUrl: '/img/matthew.jpeg',
-    name: 'Matthew Paez, ASW',
-    position: 'Founder & Good Idea Fairy',
+    name: 'Matthew Paez',
+    position: 'Founder & Lead Solutions Architect',
     bio: 'I would call myself a disruptive nerd, not a disruptor. I am driven and innovative clinical social worker with a passion for integrating technology into health and human service spaces. With an MSW from USC and a background in military intelligence, I bring a unique perspective to my work, blending deep empathy with strategic problem-solving. As the founder of True North Consultants LLC, I am dedicated to unburdening social entrepreneurs, human service and veteran service organizations by empowering them with cutting-edge solutions. My approach is rooted in the values of service, innovation, and sustainability, with a focus on creating lasting impacts in the communities they serve.',
   },
   {
     photoUrl: '/img/jake.jpg',
-    name: 'Jake A',
-    position: 'Hostage Negotiator & Disruptor',
+    name: 'Jake Anderson',
+    position: 'Director of Technology',
     bio: 'I’m a tech talent with a passion for leveraging data and innovation to solve real-world problems. After serving ten years in the US Marine Corps as a Geospatial Data Scientist within Special Operations, I transitioned my skills into the tech industry. I specialize in strategy and development, blending my operational experience with a drive for building solutions that matter. Now, I lead True North’s strategy and implementation. Beyond here, you’ll likely find me volunteering to counter human trafficking or catching waves at the beach.',
   },
 ];
