@@ -48,7 +48,7 @@ const OurValues = () => {
         </Article>
         <div className="grid grid-cols-1 gap-9 bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
-            <Card className="mx-auto max-w-[376px] px-1.5 py-4" key={index}>
+            <Card className="mx-auto max-w-[376px] md:px-1.5 md:py-4" key={index}>
               <CardHeader>
                 <Image
                   src={item.imageUrl}
@@ -58,10 +58,14 @@ const OurValues = () => {
                   height={140}
                   className="!my-0 mx-auto rounded-full"
                 />
-                <CardTitle className="text-center !text-[28px]">{item.title}</CardTitle>
+                <CardTitle className="!mt-[20px] text-center !text-[24px] md:!mt-[30px] md:!text-[28px]">
+                  {item.title}
+                </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-center font-sans text-base text-foreground">{item.content}</p>
+                <p className="text-center font-sans text-sm text-foreground md:text-base">
+                  {item.content}
+                </p>
               </CardContent>
             </Card>
           ))}

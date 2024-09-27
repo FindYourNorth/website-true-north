@@ -1,11 +1,18 @@
 'use client';
 
 import { useState } from 'react';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Button } from '@/components/ui/button';
-import { Menu as MenuIcon } from 'lucide-react';
-import { navItems } from './MainNavBar';
 import Link from 'next/link';
+import { Menu as MenuIcon } from 'lucide-react';
+
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
+import { Button } from '@/components/ui/button';
+import { navItems } from './MainNavBar';
 
 export default function MobileNavBar() {
   const [open, setOpen] = useState(false);
@@ -18,6 +25,10 @@ export default function MobileNavBar() {
           <MenuIcon />
         </Button>
       </SheetTrigger>
+
+      {/*Diaglog title and description are needed to remove console error/warning*/}
+      <SheetTitle className="hidden">Menu</SheetTitle>
+      <SheetDescription className="hidden">Mobile Menu</SheetDescription>
 
       <SheetContent side="right" className="bg-primary-foreground">
         <div className="flex flex-col items-start gap-4 py-10">

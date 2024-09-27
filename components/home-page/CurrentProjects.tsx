@@ -22,20 +22,22 @@ const CurrentProjects = () => {
           </div>
         </Article>
         <div className="grid grid-cols-1 gap-9">
-          <Card className="grid w-full grid-cols-1 p-10 sm:grid-cols-4 sm:gap-[60px]">
+          <Card className="grid w-full grid-cols-1 p-8 md:grid-cols-4 md:gap-[40px] md:p-10">
             <div className="col-span-1">
               <Image
                 src="/img/sof-network.jpeg"
                 alt="SOF Network"
-                unoptimized
                 width={250}
                 height={250}
-                className="!my-0"
+                unoptimized
+                className="!my-0 mx-auto h-[120px] w-[120px] md:h-[250px] md:w-[250px] md:object-contain md:object-top"
               />
             </div>
-            <div className="col-span-1 sm:col-span-3">
-              <CardTitle className="!text-[28px]">SOF Network, 501(c)(3)</CardTitle>
-              <p className="!py-5 font-sans text-xl text-foreground">
+            <div className="col-span-1 pt-5 md:col-span-3">
+              <CardTitle className="text-center !text-[24px] md:text-start md:!text-[28px]">
+                SOF Network, 501(c)(3)
+              </CardTitle>
+              <p className="!py-5 font-sans text-base text-foreground md:text-xl">
                 The project that inspired it all—our true north. It’s more than just a mission; it’s
                 a deeply personal endeavor born from the pain of losing friends during the current
                 veteran suicide epidemic. Through our support to the SOF Network, we aim to increase
@@ -43,8 +45,8 @@ const CurrentProjects = () => {
                 challenges faced by our veterans. This is our promise to never stop fighting for
                 those who fought for us.
               </p>
-              <div className="mt-5 flex flex-wrap justify-start gap-4">
-                <Button variant="outline" size="xl">
+              <div className="flex flex-wrap justify-start gap-4 md:mt-5">
+                <Button variant="outline" size="xl" className="w-full md:w-fit">
                   <Link
                     href="https://experience.arcgis.com/experience/65740fda4f5f4e309285cd8a47f90700/"
                     target="_blank"
@@ -53,7 +55,7 @@ const CurrentProjects = () => {
                     Search by State Code
                   </Link>
                 </Button>
-                <Button variant="outline" size="xl">
+                <Button variant="outline" size="xl" className="w-full md:w-fit">
                   <Link
                     href="https://experience.arcgis.com/experience/1bd4b0301a724dedbaff11fc7c2990f1/"
                     target="_blank"
@@ -65,7 +67,7 @@ const CurrentProjects = () => {
               </div>
             </div>
           </Card>
-          <Card className="grid w-full grid-cols-1 p-10 sm:grid-cols-4 sm:gap-[60px]">
+          <Card className="grid w-full grid-cols-1 p-8 md:grid-cols-4 md:gap-[40px] md:p-10">
             <div className="col-span-1">
               <Image
                 src="/img/chips.jpeg"
@@ -73,14 +75,14 @@ const CurrentProjects = () => {
                 unoptimized
                 width={250}
                 height={250}
-                className="!my-0"
+                className="!my-0 mx-auto h-[120px] w-[120px] md:h-[250px] md:w-[250px] md:object-contain md:object-top"
               />
             </div>
-            <div className="col-span-1 sm:col-span-3">
-              <CardTitle className="!text-[28px]">
+            <div className="col-span-1 pt-5 md:col-span-3">
+              <CardTitle className="text-center !text-[24px] md:text-start md:!text-[28px]">
                 CHIPS - Connected Healing Integrated Peer Support
               </CardTitle>
-              <p className="!py-5 font-sans text-xl text-foreground">
+              <p className="!py-5 font-sans text-base text-foreground md:text-xl">
                 A digital system designed to transform Veterans Treatment Courts by combining the
                 tradition of military challenge coins with sobriety chips. Pursuing federal grant
                 funding for statewide implementation for maximum impact. CHIPS uses a bottom-up
@@ -90,7 +92,7 @@ const CurrentProjects = () => {
               </p>
             </div>
           </Card>
-          <Card className="grid w-full grid-cols-1 p-10 sm:grid-cols-4 sm:gap-[60px]">
+          <Card className="grid w-full grid-cols-1 p-8 md:grid-cols-4 md:gap-[40px] md:p-10">
             <div className="col-span-1">
               <Image
                 src="/img/placeholder.svg"
@@ -98,12 +100,14 @@ const CurrentProjects = () => {
                 unoptimized
                 width={250}
                 height={250}
-                className="!my-0"
+                className="!my-0 mx-auto h-[120px] w-[120px] md:h-[250px] md:w-[250px] md:object-contain md:object-top"
               />
             </div>
-            <div className="col-span-1 sm:col-span-3">
-              <CardTitle className="!text-[28px]">Project Dead Arm</CardTitle>
-              <p className="!py-5 font-sans text-xl text-foreground">
+            <div className="col-span-1 pt-5 md:col-span-3">
+              <CardTitle className="text-center !text-[24px] md:text-start md:!text-[28px]">
+                Project Dead Arm
+              </CardTitle>
+              <p className="!py-5 font-sans text-base text-foreground md:text-xl">
                 A nationwide initiative centered on collecting data to assess disparities in veteran
                 service frameworks and resources. A skill repurposing of skills honed in our
                 previous careers to create actionable intelligence in a new space. Leveraging these

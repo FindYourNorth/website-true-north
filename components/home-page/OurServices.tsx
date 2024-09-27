@@ -56,14 +56,18 @@ const OurServices = () => {
           </p>
         </Article>
       </Container>
-      <Container className="grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2">
+      <Container className="grid grid-cols-1 gap-5 pt-[30px] md:grid-cols-2 md:gap-10 md:pt-[60px]">
         {cardItems.map((item, index) => (
-          <Card className="max-w-[580px] p-4" key={index}>
+          <Card className="max-w-[580px] md:p-4" key={index}>
             <CardHeader>
-              <CardTitle className="text-center !text-[28px]">{item.title}</CardTitle>
+              <CardTitle className="text-center !text-[20px] md:!text-[28px]">
+                {item.title}
+              </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-center font-sans text-base text-foreground">{item.content}</p>
+              <p className="text-center font-sans text-sm text-foreground md:text-base">
+                {item.content}
+              </p>
             </CardContent>
           </Card>
         ))}

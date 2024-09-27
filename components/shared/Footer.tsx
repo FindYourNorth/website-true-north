@@ -1,9 +1,3 @@
-// React and Next.js imports
-
-// Third-party library imports
-import Balancer from 'react-wrap-balancer';
-
-// UI component imports
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 
@@ -17,19 +11,21 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer>
-      <Section className="pb-[60px] pt-20">
+      <Section className="py-[60px] md:pt-[80px]">
         <Container className="grid gap-8">
-          <div className="not-prose flex flex-col">
-            <h1 className="!text-[40px] font-bold text-primary-foreground">Get in touch with us</h1>
-            <p>
-              <Balancer>Got questions about us? Our team is here to help.</Balancer>
+          <div className="flex flex-col">
+            <h1 className="!text-[32px] font-bold !leading-snug text-primary-foreground md:!text-[40px]">
+              Get in touch with us
+            </h1>
+            <p className="pt-2 font-sans text-base">
+              Got questions about us? Our team is here to help.
             </p>
           </div>
           <div className="not-prose flex flex-wrap justify-start gap-5">
-            <Button variant="dark" size="xl">
+            <Button variant="dark" size="xl" className="w-full md:w-fit">
               Contact Us
             </Button>
-            <Button variant="outline" size="xl">
+            <Button variant="outline" size="xl" className="w-full md:w-fit">
               <Link
                 href="https://truenorthconsultants.atlassian.net/servicedesk/customer/portal/2"
                 target="_blank"
@@ -39,8 +35,8 @@ export default function Footer() {
             </Button>
           </div>
           <Separator className="bg-muted" />
-          <div className="not-prose flex justify-between md:flex-row md:items-center md:gap-2">
-            <p className="text-muted-foreground">
+          <div className="not-prose flex items-center justify-between md:flex-row md:gap-2">
+            <p className="font-sans text-sm text-muted-foreground">
               © {new Date().getFullYear()} True North Consultants. All rights reserved.
             </p>
             <Button variant="outline" size="icon">
