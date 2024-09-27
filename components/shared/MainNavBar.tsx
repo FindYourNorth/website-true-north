@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/craft';
+import { CONTACT_EMAIL } from '@/lib/constants';
 
 type NavItem = {
   label: string;
@@ -41,13 +42,18 @@ export default function MainNavBar() {
           <Link
             key={index}
             href={item.href}
-            className="mr-6 font-sans text-base font-bold !no-underline lg:mr-12"
+            className="mr-6 font-sans text-base font-bold !no-underline lg:mr-10 xl:mr-12"
           >
             {item.label}
           </Link>
         ))}
-        <Button className="h-[60px] rounded-[20px] px-12 font-sans text-base font-bold text-white">
-          Contact Us
+        <Button className="h-[60px] rounded-[20px] px-8 text-base text-background lg:px-12">
+          <Link
+            href={`mailto:${CONTACT_EMAIL}`}
+            className="font-bold !no-underline hover:!text-white"
+          >
+            Contact Us
+          </Link>
         </Button>
       </div>
     </Container>

@@ -7,6 +7,7 @@ import { Linkedin } from 'lucide-react';
 // Local component imports
 import { Section, Container } from '../craft';
 import Link from 'next/link';
+import { CONTACT_EMAIL } from '@/lib/constants';
 
 export default function Footer() {
   return (
@@ -22,8 +23,13 @@ export default function Footer() {
             </p>
           </div>
           <div className="not-prose flex flex-wrap justify-start gap-5">
-            <Button variant="dark" size="xl" className="w-full md:w-fit">
-              Contact Us
+            <Button variant="dark" size="xl" className="w-full text-background md:w-fit">
+              <Link
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="font-bold !no-underline hover:!text-white"
+              >
+                Contact Us
+              </Link>
             </Button>
             <Button variant="outline" size="xl" className="w-full md:w-fit">
               <Link
