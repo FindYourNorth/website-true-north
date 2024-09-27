@@ -5,6 +5,7 @@ import { Section, Container, Article } from '@/components/craft';
 import { Card, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
 import { Button } from '../ui/button';
+import Link from 'next/link';
 
 const CurrentProjects = () => {
   return (
@@ -44,10 +45,22 @@ const CurrentProjects = () => {
               </p>
               <div className="mt-5 flex justify-start gap-4">
                 <Button variant="outline" size="xl">
-                  Search by State Code
+                  <Link
+                    href="https://experience.arcgis.com/experience/65740fda4f5f4e309285cd8a47f90700/"
+                    target="_blank"
+                    className="!no-underline"
+                  >
+                    Search by State Code
+                  </Link>
                 </Button>
                 <Button variant="outline" size="xl">
-                  Search by Map
+                  <Link
+                    href="https://experience.arcgis.com/experience/1bd4b0301a724dedbaff11fc7c2990f1/"
+                    target="_blank"
+                    className="!no-underline"
+                  >
+                    Search by Map
+                  </Link>
                 </Button>
               </div>
             </div>
