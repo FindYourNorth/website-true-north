@@ -35,8 +35,8 @@ export const navItems: NavItem[] = [
 
 export default function MainNavBar() {
   return (
-    <Container className="!py-0">
-      <div className="hidden h-[100px] items-center justify-end gap-2 md:flex">
+    <Container>
+      <div className="hidden h-36 items-center justify-end gap-2 md:flex">
         {navItems.map((item, index) => (
           <Link
             key={index}

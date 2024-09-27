@@ -16,7 +16,7 @@ import { Section, Container } from '../craft';
 export default function Footer() {
   return (
     <footer>
-      <Section className="!py-[60px]">
+      <Section className="pb-[60px] pt-20">
         <Container className="grid gap-8">
           <div className="not-prose flex flex-col">
             <h1 className="!text-[40px] font-bold text-primary-foreground">Get in touch with us</h1>

@@ -34,15 +34,17 @@ const cardItems: CardItem[] = [
 
 const OurValues = () => {
   return (
-    <Section id="our-values" className="bg-primary-foreground !py-0">
-      <Container className="rounded-lg !py-8 sm:!py-12 md:!py-20">
+    <Section id="our-values" className="bg-primary-foreground py-[120px]">
+      <Container>
         <Article>
-          <h1 className="!mb-10 text-center !text-[40px] text-white">
-            <span className="text-muted">
-              <i>Our</i>
-            </span>{' '}
-            Values
-          </h1>
+          <div className="pb-[60px]">
+            <h1 className="text-center !text-[40px] text-white">
+              <span className="text-muted">
+                <i>Our</i>
+              </span>{' '}
+              Values
+            </h1>
+          </div>
         </Article>
         <div className="grid grid-cols-1 gap-9 bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (

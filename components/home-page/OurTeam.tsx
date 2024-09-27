@@ -2,8 +2,7 @@ import * as React from 'react';
 
 // Local component imports
 import { Section, Container, Article } from '@/components/craft';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import Image from 'next/image';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
 type CardItem = {
   photoUrl: string;
@@ -35,33 +34,36 @@ const cardItems: CardItem[] = [
 
 const OurTeam = () => {
   return (
-    <Section id="our-team" className="bg-primary-foreground !py-0">
-      <Container className="rounded-lg !py-8 sm:!py-12 md:!py-20">
+    <Section id="our-team" className="bg-primary-foreground py-[120px]">
+      <Container>
         <Article>
-          <h1 className="!mb-10 text-center !text-[40px] text-white">
-            <span className="text-muted">
-              <i>Meet</i>
-            </span>{' '}
-            Our Team
-          </h1>
+          <div className="pb-[60px]">
+            <h1 className="text-center !text-[40px] text-white">
+              <span className="text-muted">
+                <i>Meet</i>
+              </span>{' '}
+              Our Team
+            </h1>
+          </div>
         </Article>
         <div className="grid grid-cols-1 gap-[30px] bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
             <Card className="mx-auto max-w-[380px] border-0" key={index}>
-              <Image
-                src={item.photoUrl}
-                alt={item.name}
-                unoptimized
-                width={400}
-                height={400}
-                className="!my-0 mx-auto rounded-t-[20px]"
-              />
+              <div className="h-[278px] w-full">
+                <img
+                  src={item.photoUrl}
+                  alt={item.name}
+                  className="!my-0 mx-auto h-[278px] w-[380px] rounded-t-[20px] object-cover object-top"
+                />
+              </div>
               <CardHeader className="border-b !py-5">
                 <h3 className="text-center !text-xl font-bold">{item.name}</h3>
                 <span className="text-center font-sans text-base font-bold">{item.position}</span>
               </CardHeader>
               <CardContent className="!px-8 !pb-8 !pt-5">
-                <p className="font-sans text-base text-foreground">{item.bio}</p>
+                <p className="line-clamp-3 text-center font-sans text-base text-foreground hover:line-clamp-none">
+                  {item.bio}
+                </p>
               </CardContent>
             </Card>
           ))}

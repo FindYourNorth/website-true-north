@@ -34,15 +34,17 @@ const cardItems: CardItem[] = [
 
 const OurServices = () => {
   return (
-    <Section id="our-services">
+    <Section id="our-services" className="py-[120px]">
       <Container>
         <Article>
-          <h1 className="!mb-10 text-center !text-[40px]">
-            <span className="text-muted">
-              <i>Our</i>
-            </span>{' '}
-            Services
-          </h1>
+          <div className="mb-[60px]">
+            <h1 className="text-center !text-[40px]">
+              <span className="text-muted">
+                <i>Our</i>
+              </span>{' '}
+              Services
+            </h1>
+          </div>
           <p className="!text-center">
             At True North, we believe that achieving something different requires a different
             approach. Our team’s diverse expertise enables us to offer innovative, tailored

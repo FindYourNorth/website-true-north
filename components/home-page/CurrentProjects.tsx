@@ -8,15 +8,17 @@ import { Button } from '../ui/button';
 
 const CurrentProjects = () => {
   return (
-    <Section id="current-projects">
+    <Section id="current-projects" className="py-[120px]">
       <Container>
         <Article>
-          <h1 className="!mb-10 text-center !text-[40px]">
-            <span className="text-muted">
-              <i>Current</i>
-            </span>{' '}
-            Projects
-          </h1>
+          <div className="mb-[60px]">
+            <h1 className="text-center !text-[40px]">
+              <span className="text-muted">
+                <i>Current</i>
+              </span>{' '}
+              Projects
+            </h1>
+          </div>
         </Article>
         <div className="grid grid-cols-1 gap-9">
           <Card className="grid w-full grid-cols-1 p-10 sm:grid-cols-4 sm:gap-[60px]">

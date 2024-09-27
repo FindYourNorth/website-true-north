@@ -4,15 +4,17 @@ import { Section, Container, Article } from '@/components/craft';
 
 const AboutUs = () => {
   return (
-    <Section className="!pb-0" id="about-us">
+    <Section className="pt-[120px]" id="about-us">
       <Container>
         <Article>
-          <h1 className="!mb-10 text-center !text-[40px]">
-            <span className="text-muted">
-              <i>About</i>
-            </span>{' '}
-            Us
-          </h1>
+          <div className="mb-[60px]">
+            <h1 className="text-center !text-[40px]">
+              <span className="text-muted">
+                <i>About</i>
+              </span>{' '}
+              Us
+            </h1>
+          </div>
           <p>
             At True North Consultants LLC, we are explorers by nature. We believe that finding the
             right solutions often means venturing into the unknown, embracing uncertainty, and
