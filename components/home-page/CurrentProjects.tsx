@@ -34,7 +34,7 @@ const CurrentProjects = () => {
               />
             </div>
             <div className="col-span-1 pt-5 md:col-span-3">
-              <CardTitle className="text-center !text-[24px] md:text-start md:!text-[28px]">
+              <CardTitle className="text-center !text-[24px] text-primary-foreground md:text-start md:!text-[28px]">
                 SOF Network, 501(c)(3)
               </CardTitle>
               <p className="!py-5 font-sans text-base text-foreground md:text-xl">
@@ -79,7 +79,7 @@ const CurrentProjects = () => {
               />
             </div>
             <div className="col-span-1 pt-5 md:col-span-3">
-              <CardTitle className="text-center !text-[24px] md:text-start md:!text-[28px]">
+              <CardTitle className="text-center !text-[24px] text-primary-foreground md:text-start md:!text-[28px]">
                 CHIPS - Connected Healing Integrated Peer Support
               </CardTitle>
               <p className="!py-5 font-sans text-base text-foreground md:text-xl">
@@ -104,7 +104,7 @@ const CurrentProjects = () => {
               />
             </div>
             <div className="col-span-1 pt-5 md:col-span-3">
-              <CardTitle className="text-center !text-[24px] md:text-start md:!text-[28px]">
+              <CardTitle className="text-center !text-[24px] text-primary-foreground md:text-start md:!text-[28px]">
                 Project Dead Arm
               </CardTitle>
               <p className="!py-5 font-sans text-base text-foreground md:text-xl">

@@ -60,7 +60,7 @@ const OurServices = () => {
         {cardItems.map((item, index) => (
           <Card className="max-w-[580px] md:p-4" key={index}>
             <CardHeader>
-              <CardTitle className="text-center !text-[20px] md:!text-[28px]">
+              <CardTitle className="text-center !text-[20px] text-primary-foreground md:!text-[28px]">
                 {item.title}
               </CardTitle>
             </CardHeader>

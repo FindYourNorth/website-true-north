@@ -58,7 +58,7 @@ const OurValues = () => {
                   height={140}
                   className="!my-0 mx-auto rounded-full"
                 />
-                <CardTitle className="!mt-[20px] text-center !text-[24px] md:!mt-[30px] md:!text-[28px]">
+                <CardTitle className="!mt-[20px] text-center !text-[24px] text-primary-foreground md:!mt-[30px] md:!text-[28px]">
                   {item.title}
                 </CardTitle>
               </CardHeader>
