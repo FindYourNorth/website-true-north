@@ -1,23 +1,17 @@
 import * as React from 'react';
-import Image from 'next/image';
 
 // Local component imports
-import { Section, Container, Article } from '@/components/craft';
-
-// Asset imports
-import Logo from '@/public/logo.svg';
+import { Section, Container } from '@/components/craft';
 
 const bannerTextClassName =
-  'text-primary-foreground font-sans text-[90px] font-bold leading-tight tracking-tight';
+  'text-primary-foreground font-bold font-sans sm:text-[90px] sm:leading-[105px] text-[48px] leading-[64px] tracking-tight';
 
 const Hero = () => {
   return (
     <Section className="pt-[120px]">
-      <Container className="grid grid-cols-2 gap-10">
-        <div className="flex justify-end">
-          <Image src={Logo} height={300} alt="Company Logo" className="not-prose" />
-        </div>
-        <div className="flex flex-col justify-center">
+      <Container className="flex justify-center gap-4">
+        <img src="/logo.svg" alt="Logo" className="not-prose h-[180px] sm:h-[300px]" />
+        <div className="flex flex-col items-start justify-center">
           <p className={bannerTextClassName}>
             FIND <br /> YOUR <br /> NORTH
           </p>

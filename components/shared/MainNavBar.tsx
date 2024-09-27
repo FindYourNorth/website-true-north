@@ -41,7 +41,7 @@ export default function MainNavBar() {
           <Link
             key={index}
             href={item.href}
-            className="mr-12 font-sans text-base font-bold !no-underline"
+            className="mr-6 font-sans text-base font-bold !no-underline lg:mr-12"
           >
             {item.label}
           </Link>

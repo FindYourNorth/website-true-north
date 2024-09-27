@@ -25,7 +25,7 @@ export default function Footer() {
               <Balancer>Got questions about us? Our team is here to help.</Balancer>
             </p>
           </div>
-          <div className="not-prose flex justify-start gap-5">
+          <div className="not-prose flex flex-wrap justify-start gap-5">
             <Button variant="dark" size="xl">
               Contact Us
             </Button>

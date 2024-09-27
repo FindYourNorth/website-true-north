@@ -4,11 +4,11 @@ import { Section, Container, Article } from '@/components/craft';
 
 const AboutUs = () => {
   return (
-    <Section className="pt-[120px]" id="about-us">
+    <Section className="pt-[60px] md:pt-[120px]" id="about-us">
       <Container>
         <Article>
-          <div className="mb-[60px]">
-            <h1 className="text-center !text-[40px]">
+          <div className="mb-[30px] md:mb-[60px]">
+            <h1 className="text-center !text-[32px] md:!text-[40px]">
               <span className="text-muted">
                 <i>About</i>
               </span>{' '}

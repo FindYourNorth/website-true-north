@@ -9,11 +9,11 @@ import Link from 'next/link';
 
 const CurrentProjects = () => {
   return (
-    <Section id="current-projects" className="py-[120px]">
+    <Section id="current-projects" className="py-[60px] md:py-[120px]">
       <Container>
         <Article>
-          <div className="mb-[60px]">
-            <h1 className="text-center !text-[40px]">
+          <div className="mb-[30px] md:mb-[60px]">
+            <h1 className="text-center !text-[32px] md:!text-[40px]">
               <span className="text-muted">
                 <i>Current</i>
               </span>{' '}
@@ -43,7 +43,7 @@ const CurrentProjects = () => {
                 challenges faced by our veterans. This is our promise to never stop fighting for
                 those who fought for us.
               </p>
-              <div className="mt-5 flex justify-start gap-4">
+              <div className="mt-5 flex flex-wrap justify-start gap-4">
                 <Button variant="outline" size="xl">
                   <Link
                     href="https://experience.arcgis.com/experience/65740fda4f5f4e309285cd8a47f90700/"

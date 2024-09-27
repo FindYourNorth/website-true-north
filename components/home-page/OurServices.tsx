@@ -34,11 +34,11 @@ const cardItems: CardItem[] = [
 
 const OurServices = () => {
   return (
-    <Section id="our-services" className="py-[120px]">
+    <Section id="our-services" className="py-[60px] md:py-[120px]">
       <Container>
         <Article>
-          <div className="mb-[60px]">
-            <h1 className="text-center !text-[40px]">
+          <div className="mb-[30px] md:mb-[60px]">
+            <h1 className="text-center !text-[32px] md:!text-[40px]">
               <span className="text-muted">
                 <i>Our</i>
               </span>{' '}

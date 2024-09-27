@@ -86,7 +86,10 @@ type ContainerProps = {
 
 const Container = ({ children, className, id }: ContainerProps) => {
   return (
-    <div className={cn('mx-auto max-w-[1440px]', 'px-6 md:px-[120px]', className)} id={id}>
+    <div
+      className={cn('mx-auto max-w-[1440px]', 'px-[30px] md:px-[60px] lg:px-[120px]', className)}
+      id={id}
+    >
       {children}
     </div>
   );
@@ -110,7 +113,7 @@ const Article = ({ children, className, id, dangerouslySetInnerHTML }: ArticlePr
         // Prose Headings
         'prose-headings:font-serif',
         // Prose Paragraphs
-        'prose-p:mb-0 prose-p:break-words prose-p:text-justify prose-p:font-sans prose-p:text-xl',
+        'prose-p:mb-0 prose-p:break-words prose-p:text-justify prose-p:font-sans prose-p:text-base md:prose-p:text-xl',
         // Prose Strong
         'prose-strong:font-semibold',
         // Inline Links
