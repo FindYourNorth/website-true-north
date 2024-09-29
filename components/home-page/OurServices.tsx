@@ -37,7 +37,7 @@ const OurServices = () => {
     <Section id="our-services" className="py-[60px] md:py-[120px]">
       <Container>
         <Article>
-          <div className="mb-[30px] md:mb-[60px]">
+          <div className="pb-[30px] md:pb-[60px]">
             <h1 className="text-center !text-[32px] md:!text-[40px]">
               <span className="text-muted">
                 <i>Our</i>

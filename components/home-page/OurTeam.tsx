@@ -37,7 +37,7 @@ const OurTeam = () => {
     <Section id="our-team" className="bg-primary-foreground py-[60px] md:py-[120px]">
       <Container>
         <Article>
-          <div className="mb-[30px] md:pb-[60px]">
+          <div className="pb-[30px] md:pb-[60px]">
             <h1 className="text-center !text-[32px] text-white md:!text-[40px]">
               <span className="text-muted">
                 <i>Meet</i>
@@ -48,7 +48,7 @@ const OurTeam = () => {
         </Article>
         <div className="grid grid-cols-1 gap-[30px] bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
-            <Card className="mx-auto max-w-[380px] border-0" key={index}>
+            <Card className="mx-auto max-w-[380px] border-0 bg-background" key={index}>
               <div className="h-[278px] w-full">
                 <img
                   src={item.photoUrl}
@@ -56,7 +56,7 @@ const OurTeam = () => {
                   className="!my-0 mx-auto h-[278px] w-[380px] rounded-t-[20px] object-cover object-top"
                 />
               </div>
-              <CardHeader className="border-b !py-5">
+              <CardHeader className="border-b !py-5" style={{ borderColor: 'D8D8D8' }}>
                 <h3 className="text-center !text-xl font-bold">{item.name}</h3>
                 <span className="text-center font-sans text-base font-bold">{item.position}</span>
               </CardHeader>

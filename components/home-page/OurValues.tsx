@@ -37,7 +37,7 @@ const OurValues = () => {
     <Section id="our-values" className="bg-primary-foreground py-[60px] md:py-[120px]">
       <Container>
         <Article>
-          <div className="mb-[30px] md:pb-[60px]">
+          <div className="pb-[30px] md:pb-[60px]">
             <h1 className="text-center !text-[32px] text-white md:!text-[40px]">
               <span className="text-muted">
                 <i>Our</i>
@@ -48,7 +48,7 @@ const OurValues = () => {
         </Article>
         <div className="grid grid-cols-1 gap-9 bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
-            <Card className="mx-auto max-w-[376px] md:px-1.5 md:py-4" key={index}>
+            <Card className="mx-auto max-w-[376px] bg-background md:px-1.5 md:py-4" key={index}>
               <CardHeader>
                 <Image
                   src={item.imageUrl}

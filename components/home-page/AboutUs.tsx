@@ -7,7 +7,7 @@ const AboutUs = () => {
     <Section className="pt-[60px] md:pt-[120px]" id="about-us">
       <Container>
         <Article>
-          <div className="mb-[30px] md:mb-[60px]">
+          <div className="pb-[30px] md:pb-[60px]">
             <h1 className="text-center !text-[32px] md:!text-[40px]">
               <span className="text-muted">
                 <i>About</i>
