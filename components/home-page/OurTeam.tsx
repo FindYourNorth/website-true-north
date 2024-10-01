@@ -16,19 +16,19 @@ const cardItems: CardItem[] = [
     photoUrl: '/img/matt.jpg',
     name: 'Matthew Johnson',
     position: 'Co-Founder & Director of Operations',
-    bio: 'I’m the strategist with 20 years of military experience and a focus on operational planning and efficiency. With a business focus and experience in both the public and and private sectors, I specialize in helping organizations streamline processes and achieve their goals. As the co-founder of True North, I ensure we stay on course, delivering results that drive success. When I’m not working, I’m dedicated to empowering veterans and exploring innovative solutions to modern challenges.',
+    bio: 'Matt Johnson leverages 20 years of military experience to specialize in operational planning and efficiency. With a strong business focus and experience in both the public and private sectors, he helps organizations streamline processes and achieve their goals. As the co-founder of True North, Matt keeps the team on course, consistently driving success through impactful results. Outside of work, he empowers veterans and actively explores innovative solutions to modern challenges.',
   },
   {
     photoUrl: '/img/matthew.jpeg',
     name: 'Matthew Paez',
-    position: 'Founder & Lead Solutions Architect',
-    bio: 'I would call myself a disruptive nerd, not a disruptor. I am driven and innovative clinical social worker with a passion for integrating technology into health and human service spaces. With an MSW from USC and a background in military intelligence, I bring a unique perspective to my work, blending deep empathy with strategic problem-solving. As the founder of True North Consultants LLC, I am dedicated to unburdening social entrepreneurs, human service and veteran service organizations by empowering them with cutting-edge solutions. My approach is rooted in the values of service, innovation, and sustainability, with a focus on creating lasting impacts in the communities they serve.',
+    position: 'Founder & President',
+    bio: 'Matt Paez is an innovative clinical social worker and a self-proclaimed "disruptive nerd" passionate about integrating technology into health and human services. With an MSW from USC and a background in military intelligence, Matt combines deep empathy with strategic problem-solving to create impactful solutions. As the founder of True North, he is dedicated to empowering social entrepreneurs, human service, and veteran organizations with cutting-edge tools, all while fostering sustainability and lasting community impact.',
   },
   {
     photoUrl: '/img/jake.jpg',
     name: 'Jake Anderson',
-    position: 'Director of Technology',
-    bio: 'I’m a tech talent with a passion for leveraging data and innovation to solve real-world problems. After serving ten years in the US Marine Corps as a Geospatial Data Scientist within Special Operations, I transitioned my skills into the tech industry. I specialize in strategy and development, blending my operational experience with a drive for building solutions that matter. Now, I lead True North’s strategy and implementation. Beyond here, you’ll likely find me volunteering to counter human trafficking or catching waves at the beach.',
+    position: 'Co-Founder & Director of Technology',
+    bio: 'Jake Anderson is an accomplished Technology Leader with a decade of experience in the field. After ten years of serving the US Special Operations community, Jake transitioned his knowledge and experience in data-driven decision-making and innovative problem-solving to the software development field as a data scientist and Python developer. He now finds pride in leading technology strategy, product development, and innovation for forward-thinking organizations. With a passion for driving growth and building cutting-edge solutions, Jake excels in guiding teams to create scalable, impactful technologies that shape industries.\n\nWhen Jake is not working, he is dedicated to philanthropy and actively combating human trafficking. When he\'s not shaping the future of tech, he can be found surfing the waves, pursuing his love for adventure.',
   },
 ];
 
