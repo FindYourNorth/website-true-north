@@ -13,16 +13,16 @@ type CardItem = {
 
 const cardItems: CardItem[] = [
   {
+    photoUrl: '/img/matthew.jpg',
+    name: 'Matthew Paez',
+    position: 'Founder & President',
+    bio: 'Matt Paez is an innovative clinical social worker and a self-proclaimed "disruptive nerd" passionate about integrating technology into health and human services. With an MSW from USC and a background in military intelligence, Matt combines deep empathy with strategic problem-solving to create impactful solutions. As the founder of True North, he is dedicated to empowering social entrepreneurs, human service, and veteran organizations with cutting-edge tools, all while fostering sustainability and lasting community impact.',
+  },
+  {
     photoUrl: '/img/matt.jpg',
     name: 'Matthew Johnson',
     position: 'Co-Founder & Director of Operations',
     bio: 'Matt Johnson leverages 20 years of military experience to specialize in operational planning and efficiency. With a strong business focus and experience in both the public and private sectors, he helps organizations streamline processes and achieve their goals. As the co-founder of True North, Matt keeps the team on course, consistently driving success through impactful results. Outside of work, he empowers veterans and actively explores innovative solutions to modern challenges.',
-  },
-  {
-    photoUrl: '/img/matthew.jpeg',
-    name: 'Matthew Paez',
-    position: 'Founder & President',
-    bio: 'Matt Paez is an innovative clinical social worker and a self-proclaimed "disruptive nerd" passionate about integrating technology into health and human services. With an MSW from USC and a background in military intelligence, Matt combines deep empathy with strategic problem-solving to create impactful solutions. As the founder of True North, he is dedicated to empowering social entrepreneurs, human service, and veteran organizations with cutting-edge tools, all while fostering sustainability and lasting community impact.',
   },
   {
     photoUrl: '/img/jake.jpg',
@@ -48,7 +48,7 @@ const OurTeam = () => {
         </Article>
         <div className="grid grid-cols-1 gap-[30px] bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
-            <Card className="mx-auto max-w-[380px] border-0 bg-background" key={index}>
+            <Card className="mx-auto max-w-[380px] border-none bg-background" key={index}>
               <div className="h-[278px] w-full">
                 <img
                   src={item.photoUrl}
