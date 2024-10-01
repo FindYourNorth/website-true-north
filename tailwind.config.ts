@@ -9,8 +9,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ['"Public Sans"', 'sans-serif'],
-      serif: ['"Libre Baskerville"', 'serif'],
+      sans: ['var(--font-publicSans)', 'sans-serif'],
+      serif: ['var(--font-libreBaskerville)', 'serif'],
     },
     extend: {
       colors: {

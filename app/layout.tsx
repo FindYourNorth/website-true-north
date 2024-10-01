@@ -2,8 +2,17 @@ import type { Metadata } from 'next';
 import { Public_Sans, Libre_Baskerville } from 'next/font/google';
 import './globals.css';
 
-const publicSans = Public_Sans({ subsets: ['latin'] });
-const libreBaskerville = Libre_Baskerville({ subsets: ['latin'], weight: '400' });
+// Public Sans is a variable font
+const publicSans = Public_Sans({
+  subsets: ['latin'],
+  variable: '--font-publicSans',
+});
+// Libre Baskerville is not a variable font
+const libreBaskerville = Libre_Baskerville({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-libreBaskerville',
+});
 
 export const metadata: Metadata = {
   title: 'Find Your North',
@@ -17,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${publicSans.className} ${libreBaskerville.className} antialiased`}>
+      <body className={`${publicSans.variable} ${libreBaskerville.variable} antialiased`}>
         {children}
       </body>
     </html>
