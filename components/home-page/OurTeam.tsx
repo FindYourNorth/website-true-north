@@ -56,7 +56,7 @@ const OurTeam = () => {
                   className="!my-0 mx-auto h-[278px] w-[380px] rounded-t-[20px] object-cover object-top"
                 />
               </div>
-              <CardHeader className="border-b !py-5" style={{ borderColor: 'D8D8D8' }}>
+              <CardHeader className="border-b border-gray-300 !py-5">
                 <h3 className="text-center !text-xl font-bold">{item.name}</h3>
                 <span className="text-center font-sans text-base font-bold">{item.position}</span>
               </CardHeader>
