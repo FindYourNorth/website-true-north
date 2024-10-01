@@ -113,7 +113,7 @@ const Article = ({ children, className, id, dangerouslySetInnerHTML }: ArticlePr
         // Prose Headings
         'prose-headings:font-serif',
         // Prose Paragraphs
-        'prose-p:mb-0 prose-p:break-words prose-p:text-justify prose-p:font-sans prose-p:text-base md:prose-p:text-xl',
+        'prose-p:mb-0 prose-p:break-words prose-p:font-sans prose-p:text-base md:prose-p:text-xl',
         // Prose Strong
         'prose-strong:font-semibold',
         // Inline Links
