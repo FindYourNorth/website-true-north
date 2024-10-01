@@ -28,7 +28,7 @@ const cardItems: CardItem[] = [
     photoUrl: '/img/jake.jpg',
     name: 'Jake Anderson',
     position: 'Co-Founder & Director of Technology',
-    bio: 'Jake Anderson is an accomplished Technology Leader with a decade of experience in the field. After ten years of serving the US Special Operations community, Jake transitioned his knowledge and experience in data-driven decision-making and innovative problem-solving to the software development field as a data scientist and Python developer. He now finds pride in leading technology strategy, product development, and innovation for forward-thinking organizations. With a passion for driving growth and building cutting-edge solutions, Jake excels in guiding teams to create scalable, impactful technologies that shape industries.\n\nWhen Jake is not working, he is dedicated to philanthropy and actively combating human trafficking. When he\'s not shaping the future of tech, he can be found surfing the waves, pursuing his love for adventure.',
+    bio: 'Jake Anderson is an accomplished Technology Leader with over a decade of experience in the field. After serving within the US Special Operations community, Jake transitioned his knowledge and experience in data-driven decision-making and innovative problem-solving to the software development field as a Data Scientist and Python developer. He now finds pride in leading technology strategy, product development, and innovation for forward-thinking organizations. When Jake is not working, he is dedicated to philanthropy and combating human trafficking.',
   },
 ];
 
