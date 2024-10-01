@@ -48,7 +48,11 @@ const OurTeam = () => {
         </Article>
         <div className="grid grid-cols-1 gap-[30px] bg-primary-foreground lg:grid-cols-3">
           {cardItems.map((item, index) => (
-            <Card className="mx-auto max-w-[380px] border-none bg-background" key={index}>
+            <Card
+              // Top corner rounding is to hide the background color behind the image
+              className="mx-auto max-w-[380px] rounded-t-[24px] border-none bg-background"
+              key={index}
+            >
               <div className="h-[278px] w-full">
                 <img
                   src={item.photoUrl}
