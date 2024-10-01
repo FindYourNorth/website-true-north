@@ -16,19 +16,19 @@ const cardItems: CardItem[] = [
     title: 'Service',
     content:
       'It is in our DNA. Founded by 100% retired Marines, True North is built on a legacy of commitment and dedication. Serving others isn’t just what we do—it’s who we are. Our mission is to continue that service by empowering organizations to achieve their goals and make a lasting impact.',
-    imageUrl: '/img/service.jpeg',
+    imageUrl: '/img/service.svg',
   },
   {
     title: 'Innovation',
     content:
       'Innovation comes naturally when you’re different by design. At True North, we don’t just think outside the box; we redefine it. Our unique approach allows us to tackle challenges in ways others can’t, driving progress through creativity and unconventional solutions. We bring a different arsenal of skills to this space.',
-    imageUrl: '/img/innovation.jpeg',
+    imageUrl: '/img/innovation.svg',
   },
   {
     title: 'Commitment',
     content:
       'We believe in building lasting relationships with the organizations we serve. True North is dedicated to creating solutions that not only address today’s challenges but also grow alongside our partners. Our commitment to your success is unwavering, ensuring that our impact endures for years.',
-    imageUrl: '/img/commitment.jpeg',
+    imageUrl: '/img/commitment.svg',
   },
 ];
 
@@ -54,9 +54,9 @@ const OurValues = () => {
                   src={item.imageUrl}
                   alt={item.title}
                   unoptimized
-                  width={140}
-                  height={140}
-                  className="!my-0 mx-auto rounded-full"
+                  width={82}
+                  height={82}
+                  className="!my-0 mx-auto"
                 />
                 <CardTitle className="!mt-[20px] text-center !text-[24px] text-primary-foreground md:!mt-[30px] md:!text-[28px]">
                   {item.title}
